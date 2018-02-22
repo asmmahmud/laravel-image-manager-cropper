@@ -42,6 +42,8 @@ options:
  4) `thumbnail_size` : Thumbnail image size in px
  5) `storage.disk` : Name of the storage engine you're using (ie, s3, local, public etc)
 
+Note: If you're using local or public storage then don't forget the `run php artisan storage:link`
+
 ## Usage
 After setting up the configuration properly, if you go the url: http://[domainname]/[]admin_url_prefix]/imagemanager, 
 you'll see the directories and images in your storage file system. 
