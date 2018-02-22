@@ -15,6 +15,10 @@
             "email": "asmmahmud@gmail.com"
         }
     ],
+    "support": {
+        "issues": "https://github.com/asmmahmud/laravel-image-manager-cropper/issues",
+        "source": "https://github.com/asmmahmud/laravel-image-manager-cropper"
+    },
     "require": {
         "illuminate/support": "~5.4.0|~5.5.0",
         "intervention/image": "~2.3"
