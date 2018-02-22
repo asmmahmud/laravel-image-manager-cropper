@@ -1,0 +1,219 @@
+#imagemanager-loader {
+	background: hsl(0, 0%, 98%) none repeat scroll 0 0;
+	height: 100%;
+	left: 0;
+	opacity: 0.75;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+#imagemanager-loader img {
+	display: block;
+	margin: 15% auto;
+}
+.image-manager-page-content {}
+.image-manager-page-content .admin-section-title h3 {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.upload-modal .form-group.row {
+	margin-bottom : 5px;
+}
+.upload-thumb-row .btn {
+}
+.size-showing-row,
+.aspect-ratio-btn-row,
+.checkbox-group {
+	margin-top : 20px;
+}
+.size-showing-row  > [class*="col-"],
+.aspect-ratio-btn-row > [class*="col-"],
+.checkbox-group  > [class*="col-"] {
+	margin-bottom: 0;
+}
+#progress-wrp {
+	border        : 1px solid #0099CC;
+	padding       : 1px;
+	position      : relative;
+	border-radius : 3px;
+	margin        : 10px;
+	text-align    : left;
+	background    : #fff;
+	box-shadow    : inset 1px 3px 6px rgba(0, 0, 0, 0.12);
+}
+#progress-wrp .progress-bar {
+	height           : 20px;
+	border-radius    : 3px;
+	background-color : #f39ac7;
+	width            : 0;
+	box-shadow       : inset 1px 1px 10px rgba(0, 0, 0, 0.11);
+}
+#progress-wrp .status {
+	top      : 3px;
+	left     : 50%;
+	position : absolute;
+	display  : inline-block;
+	color    : #000000;
+}
+#upload_files_modal .modal-body {
+	min-height: 450px;
+	padding: 5px 0;
+}
+#upload_files_modal .modal-header {
+	padding: 10px;
+}
+#upload_files_modal .modal-header .close {
+	float: right; margin: 0 0 0 15px; text-align: right;
+}
+#upload_files_modal .modal-header .file-btn {
+	float: left; margin: 0 15px 0 0; text-align: center; cursor: pointer;
+}
+.upload-modal .upload-thumb-holder {
+	margin-top : 10px;
+}
+.upload-modal .upload-cropper-holder {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	max-height: 350px;
+	max-width: 80%;
+	position: relative;
+}
+.upload-cropper-holder #upload-cropper-img {
+	max-width : 100%;
+}
+.modal-body .aspect-ratio-btn-group {
+	min-height : 50px;
+}
+.modal-body .row .aspect-ratio-btn-group .aspect-ratio-btn {
+	margin-right : 2px;
+	float        : left;
+}
+#im-toolbar .glyphicon {
+	margin-right: 5px;
+}
+#im-toolbar {
+	box-shadow: 0 0 5px hsl(0, 0%, 70%);
+}
+#im-toolbar .btn {
+	margin-left: 5px;
+}
+#image-manager .breadcrumb-container {
+	box-shadow: 0 0 3px;
+	margin: 10px 0 0;
+	padding: 0 15px;
+	position: relative;
+}
+#im-breadcrumb .breadcrumb {
+	background: hsla(0, 0%, 0%, 0) none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 0;
+	margin: 0;
+	padding: 7px 10px;
+	position: static;
+	float: left;
+}
+#im-breadcrumb .breadcrumb li {
+	cursor: pointer;
+}
+#im-breadcrumb .breadcrumb li.active {
+	cursor: auto;
+}
+#im-breadcrumb .glyphicon {
+	margin-right: 5px;
+}
+#im-breadcrumb .see-details {
+	float: right;
+	display: block;
+}
+#im-content {
+	padding: 15px 15px 5px;
+}
+#im-content .im-content-body {
+	float: left;
+}
+#im-content .item-details-info {
+	float: right;
+	width: 20%;
+	background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+	box-shadow: 0 0 5px hsl(0, 0%, 50%);
+	margin: 0;
+	padding: 5px 10px;
+	min-height: 100px;
+}
+#im-content  .item-details-info ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#im-content  .item-details-info li {
+	border-bottom: 1px solid hsl(0, 0%, 76%);
+	display: block;
+	overflow-wrap: break-word;
+	padding: 7px 0;
+	text-align: center;
+	font-size: 12px;
+}
+#im-content  .item-details-info li {
+	display: block;
+	padding: 5px 10px;
+}
+#im-content .item-details-info img.thumb {
+	height: auto;
+	max-height: 200px;
+	width: 100%;
+}
+#im-content .item {
+	border: 2px solid hsl(0, 0%, 100%);
+	box-shadow: 0 0 3px hsl(0, 0%, 70%);
+	cursor: pointer;
+	float: left;
+	height: 180px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	width: 12%;
+}
+#im-content .item:hover {
+	box-shadow: 1px 1px 5px hsl(0, 0%, 40%);
+}
+#im-content .item img {
+	display: block;
+	height: 100px;
+	margin: 2px auto 8px;
+	width: 90%;
+}
+#im-content .item .folder {
+	display: block;
+	width: 90%;
+	margin: 2px auto;
+	text-align: center;
+}
+#im-content .item .folder .glyphicon {
+	font-size: 50px;
+	color: #777;
+}
+#im-content .item .item-name,
+#im-content .item .item-dimention {
+	font-size: 10px;
+	line-height: 1.1;
+	margin: 5px auto;
+	overflow: hidden;
+	overflow-wrap: break-word;
+	text-align: center;
+	width: 90%;
+}
+#im-content .item .item-dimention {
+	margin: 5px auto;
+	border-top: 1px solid #e1e1e1;
+	padding-top: 3px;
+}
+#im-content .dir .item-name {
+	font-size: 12px;
+}
+#im-content .selected {
+	border-color: hsl(0, 50%, 75%);
+}
+
+

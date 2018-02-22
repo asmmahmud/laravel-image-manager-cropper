@@ -1,0 +1,37 @@
+{
+    "name": "tasmnaguib/imagemanager",
+    "description": "A Laravel Package for The managing storage file system/images",
+    "keywords": [
+        "laravel",
+        "image manager",
+        "file system manager",
+        "storage manager",
+        "media manager"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ASM Mahmudul Hasan",
+            "email": "asmmahmud@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.4.0|~5.5.0",
+        "intervention/image": "~2.3"
+    },
+    "require-dev": {
+        "laravel/framework": "5.4.*|5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tasmnaguib\\Imagemanager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tasmnaguib\\Imagemanager\\ImagemanagerServiceProvider"
+            ]
+        }
+    }
+}
