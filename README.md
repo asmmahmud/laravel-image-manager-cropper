@@ -1,4 +1,5 @@
 # Tasmnaguib Image Manager
+Laravel Image manager, uploader, cropper. User also can create different versions of images for different devices like desktop, tablet, mobile etc.
 
 ## Install
 
@@ -59,6 +60,13 @@ You can do the following things:
 In order to properly integrate this package with your admin theme or section, you can customize package's `[package dir]/resources/views/index.blade.php` tempalte file.
 This file is using a simplified master blade layout template (`[package dir]/resources/views/master_clean.blade.php`), you can use your own master layout template file.
 In order customzie the `[package dir]/resources/views/index.blade.php` file, copy it to `resources/views/vendor/imagemanager` directory and then customize it.
+
+## Used libraries:
+
+  1) [Vue.js](https://github.com/vuejs/vue)
+  2) [Cropper.js](https://github.com/fengyuanchen/cropperjs) for image cropping
+  3) jquery 
+
 ## License
 
 The MIT License (MIT). Please see [License File](https://github.com/dnoegel/php-xdg-base-dir/blob/master/LICENSE) for more information.
